@@ -35,15 +35,19 @@ app.post("/api/notes", ({ body }, res) => {
     res.json(notes);
 });
 
-app.delete("/api/notes", (req,res)=>{
-    
-})
+app.delete("/api/notes/:id", (req,res)=>{
+    const id=req.params.id;
+   
+    notes.splice(id,1);
+    for(i=0;i<notes.length;i++){
+        notes[i]['id']=i.toString();
+    };
+    fs.writeFileSync(path.join(__dirname, '/db/db.json'),
+        JSON.stringify(notes, null, 2)
+    );
 
-
-
-
-
-
+    res.json(notes);
+});
 
 app.listen(PORT, () => {
     console.log(`Server now available at http://localhost:${PORT}/`);
