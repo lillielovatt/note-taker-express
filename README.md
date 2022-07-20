@@ -1,24 +1,41 @@
-# note-taker-express
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+# Note Taker Express
 
-GIVEN a note-taking application
 
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
+## Description
 
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+Your brain is only so large, and full of ideas! What to do? You could get out a pen and paper and put thoughts on the page, but what if you forget your notebook at home? What if you wanted to delete your notes without worrying about the tedious act of erasing or crossing them out? The answer to all your worries is here--the Note Taker Express! Hop aboard and see why everyone (everyone?) is talking about this exciting new application. You can create notes, with handy titles, no less, and save and delete them all through the website. Even better, you can access them anywhere! As long as you have the link and an internet connection, the notes are at your fingertips! The possibilities are endless. What will you note next?
 
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
 
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+## Table of Contents
 
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#Questions)
 
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+## Installation
+
+You don't need to install anything to use Note Taker Express! Just open up the link in [tests](#tests) and get going!
+
+
+## Usage 
+
+It's all very intuitive! Just open up the link and start notetaking. Don't forget to save your note, and feel free to delete any note at any time! It's that easy. 
+
+
+        
+## Contributing 
+If you'd like to contribute to this project, that's wonderful. You can fork it to your heart's content!
+
+
+## Tests 
+If you'd like to test this, you'll need to clone the repo and follow the [installation](#installation) directions.
+
+Check out the [deployed site!](heroku link)
+
+
+## Questions
+Check out my [GitHub profile](https://github.com/lillielovatt)
+
+If you have more questions, email me! <lillielovatt@gmail.com>
