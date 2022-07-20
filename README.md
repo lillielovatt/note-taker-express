@@ -32,7 +32,7 @@ If you'd like to contribute to this project, that's wonderful. You can fork it t
 ## Tests 
 If you'd like to test this, you'll need to clone the repo and follow the [installation](#installation) directions.
 
-Check out the [deployed site!](heroku link)
+Check out the [deployed site!](https://afternoon-gorge-38241.herokuapp.com/)
 
 
 ## Questions
